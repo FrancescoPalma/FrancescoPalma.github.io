@@ -1,0 +1,132 @@
+body {
+    background-color: grey; 
+}
+
+/* Header */
+.header-area {
+    background-color: grey;
+}
+
+.logo {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding: 10px 0px 0px 10px;
+  text-transform: uppercase;
+}
+
+.tagline {
+  background-color: silver;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding: 10px 0 10px 0;
+}
+
+/* About */
+.about {
+    background-color: silver;
+}
+
+.profile-pic {
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px 10px 10px 10px silver;
+}
+
+.img-text {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding: 10px 0 10px 0;
+}
+
+/* Skills */
+.skills {
+    background-color: silver;
+}
+
+.skills h1 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding: 10px 0 10px 0;
+}
+
+/* Accordions */
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing: border-box;
+}
+ 
+.accordion {
+    background-color:silver;
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+}
+ 
+/* Section Titles */
+.accordion-section-title {
+    background-color:#333;
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    transition:all linear 0.15s;
+    color:white;
+    text-align: center;
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#4c4c4c;
+    text-decoration:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+/* Section Contents */
+.accordion-section-content {
+    display:none;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer p {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
